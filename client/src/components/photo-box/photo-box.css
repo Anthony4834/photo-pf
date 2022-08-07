@@ -1,0 +1,32 @@
+.photoBox {
+    border-radius: 15px;
+    width: 20vw;
+    height: 20vw;
+    display: inline-block;
+    margin: 0.5vw;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 20%), 0 8px 16px rgb(0 0 0 / 20%);
+    background-size: cover;
+    transition: .2s;
+}
+.photoBox:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.photoBox p {
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    top: calc(8vw);
+    font-weight: lighter;
+    color: transparent;
+}
+.empty {
+    background-color: #cebeda;
+}
+.occupied:hover {
+    filter: brightness(0.8);
+}
+.empty p {
+    color: rgba(255, 255, 255, 0.8);
+}

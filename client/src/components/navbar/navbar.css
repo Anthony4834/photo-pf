@@ -1,0 +1,29 @@
+.navBar, .navBar * {
+    /* border: 1px dotted red; */
+}
+.navBarWrapper {
+    width: 15vw;
+    padding-top: 5vh;
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    background-color: rgb(66, 66, 66);
+    height: 100vh;
+}
+.navBar {
+    list-style-type: none;
+    display: inline-block;
+    width: 15vw;
+    text-align: center;
+}
+.navBar .navBarOption {
+    font-size: 1.7rem;
+    padding: 1vw;
+    color: rgba(255, 255, 255, 0.8);
+}
+.navBarWrapper .navTitle {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
